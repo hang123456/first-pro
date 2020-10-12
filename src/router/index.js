@@ -2,9 +2,10 @@ import Vue from 'vue'
 import Router from 'vue-router'
 Vue.use(Router)
 const home = () => import('../views/home.vue')
-const cart = () => import('../views/cart.vue')
-const fenlei = () => import('../views/fenlei.vue')
-const profile = () => import('../views/profile.vue')
+const cart = () => import('../views/cart/cart.vue')
+const fenlei = () => import('../views/fenlei/fenlei.vue')
+const profile = () => import('../views/profile/profile.vue')
+const detail = () => import('../views/detail/detail.vue')
 const routes = [
   {
     path: '',
@@ -25,6 +26,10 @@ const routes = [
   {
     path: '/profile',
     component: profile
+  },
+  {
+    path: '/detail/:iid',
+    component: detail
   }
 ]
 const router = new Router({

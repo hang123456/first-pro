@@ -4,12 +4,12 @@ export function getHomeMultidata(){
         url: '/home/multidata'
     })
 }
-export function tabbarnav(type, page){
+export function tabBarNav(type, page){
     return request({
         url: '/home/data',
-        parmas: {
+        params: {
             type,
             page
-        }
+          }
     })
 }

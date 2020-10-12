@@ -1,7 +1,7 @@
 <template>
   <div class="feature">
       <a href="http://www.baidu.com" target="_blank">
-      <img src="~assets/img/backmgj.png" alt=""></a>
+      <img src="~assets/img/home/recommend_bg.jpg" alt=""></a>
   </div>
 </template>
 
